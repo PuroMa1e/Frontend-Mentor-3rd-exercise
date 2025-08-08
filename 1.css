@@ -1,8 +1,9 @@
+*{box-sizing: border-box;}
+
 body{
 
     background-color: hsl(257, 40%, 49%);
     background-image: url(images/bg-desktop.svg);
-    padding: 50px;
     background-size: cover;
     margin: 0;
 
@@ -11,7 +12,14 @@ body{
 .illustration-mockups{
 
 margin-top: 60px;
+
 }
 
 .logo{height: 50px;}
 
+@font-face {
+
+    font-family: fti;
+    src: url(fonts/fonts/icomoon.ttf);
+
+}
